@@ -1,6 +1,6 @@
 export const SEOConfig = {
-  name: 'Gerson | Desenvolvedor Fulstack',
-  description: `Sou um desenvolvedor fulstack apaixonado pelo processo da criação ao lançamento.`,
+  name: 'Gerson | Desenvolvedor Fullstack',
+  description: `Sou um desenvolvedor Fullstack apaixonado pelo processo da criação ao lançamento.`,
   url: 'http://localhost:3000',
   ogImage: '',
   links: {
