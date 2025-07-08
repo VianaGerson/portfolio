@@ -1,0 +1,19 @@
+[
+  {
+    "name": "LinkedIn",
+    "href": "https://www.linkedin.com/in/gerson-viana-2bb321124",
+    "imageUrl": "/images/social/linkedin.svg"
+  },
+
+  {
+    "name": "Instagram",
+    "href": "https://www.instagram.com/gersonviana.ads",
+    "imageUrl": "/images/social/instagram.png"
+  },
+
+  {
+    "name": "WhatsApp",
+    "href": "https://wa.me/+5584996196819",
+    "imageUrl": "/images/social/whatsapp.svg"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "PHP",
+    "imageUrl": "/images/skills/php.svg"
+  },
+
+  {
+    "name": "NodeJs",
+    "imageUrl": "/images/skills/node-js.svg"
+  },
+
+  {
+    "name": "Laravel",
+    "imageUrl": "/images/skills/laravel.svg"
+  },
+
+  {
+    "name": "Postgresql",
+    "imageUrl": "/images/skills/postgresql.svg"
+  },
+
+  {
+    "name": "HTML5",
+    "imageUrl": "/images/skills/html5.svg"
+  },
+
+  {
+    "name": "CSS3",
+    "imageUrl": "/images/skills/css3.svg"
+  },
+
+  {
+    "name": "JavaScript",
+    "imageUrl": "/images/skills/js.svg"
+  },
+
+  {
+    "name": "TypeScript",
+    "imageUrl": "/images/skills/ts.svg"
+  },
+
+  {
+    "name": "React",
+    "imageUrl": "/images/skills/react.svg"
+  },
+
+  {
+    "name": "Next.Js",
+    "imageUrl": "/images/skills/next.svg"
+  },
+
+  {
+    "name": "Tailwind CSS",
+    "imageUrl": "/images/skills/tailwind.svg"
+  },
+
+  {
+    "name": "Material UI",
+    "imageUrl": "/images/skills/mui.svg"
+  },
+
+  {
+    "name": "Redux",
+    "imageUrl": "/images/skills/redux.svg"
+  },
+
+  {
+    "name": "Git | GitHub",
+    "imageUrl": "/images/skills/git.svg"
+  }
+]

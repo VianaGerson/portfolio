@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Exame",
+    "imageUrl": "/images/performances/exame.png"
+  },
+
+  {
+    "name": "CartaCapital",
+    "imageUrl": "/images/performances/cartacapital.png"
+  },
+
+  {
+    "name": "Integralmedica",
+    "imageUrl": "/images/performances/integralmedica.svg"
+  },
+
+  {
+    "name": "Max Titanium",
+    "imageUrl": "/images/performances/maxtitanium.png"
+  },
+
+  {
+    "name": "Placar",
+    "imageUrl": "/images/performances/placar.png"
+  },
+
+  {
+    "name": "Vinhos Nacionais",
+    "imageUrl": "/images/performances/vinhosnacionais.png"
+  },
+
+  {
+    "name": "BrainTV",
+    "imageUrl": "/images/performances/braintv.png"
+  },
+
+  {
+    "name": "A Taba",
+    "imageUrl": "/images/performances/ataba.png"
+  },
+
+  {
+    "name": "Vida Simples",
+    "imageUrl": "/images/performances/vidasimples.png"
+  },
+
+  {
+    "name": "ELLE",
+    "imageUrl": "/images/performances/elle.png"
+  },
+
+  {
+    "name": "Xtratus",
+    "imageUrl": "/images/performances/xtratus.png"
+  },
+
+  {
+    "name": "Nutrify",
+    "imageUrl": "/images/performances/nutrify.png"
+  },
+
+  {
+    "name": "Correio do Povo",
+    "imageUrl": "/images/performances/correiodopovo.png"
+  }
+]
