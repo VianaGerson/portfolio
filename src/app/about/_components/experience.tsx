@@ -43,7 +43,7 @@ export function Experience() {
             company="Expertise - Inteligencia E Pesquisa De Mercado"
             companyLink="https://www.instagram.com/expertiseconsulting"
             time="dez 2020 - jul 2021"
-            position="Desenvolvedor Fullstack"
+            position="Desenvolvedor Full Stack"
             work="Atuei no desenvolvimento da plataforma de gestão de reclamações e orderm de serviços voltadas para operadoras de internet."
           />
 
@@ -51,7 +51,7 @@ export function Experience() {
             company="Rits - Assinaturas e Vendas Recorrentes"
             companyLink="https://ritspay.com"
             time="jul 2021 - atual"
-            position="Desenvolvedor Fullstack"
+            position="Desenvolvedor Full Stack"
             work="Atuei na parte de terceirização de TI e no desenvolvimento da plataforma de assinaturas.
             Tanto na plataforma Saas quanto na versão enterprise."
           />

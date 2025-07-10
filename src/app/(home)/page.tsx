@@ -19,12 +19,12 @@ export default function HomePage() {
 
         <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
           <AnimatedText
-            text="Desenvolvedor Fullstack | Especialista em Backend"
+            text="Desenvolvedor Full Stack | Especialista em Backend"
             className="!text-left !text-6xl xl:text-5xl lg:!text-center lg:!text-6xl
             md:!text-5xl sm:!text-3xl"
           />
           <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-            Sou um desenvolvedor fullstack com forte foco em backend,
+            Sou um desenvolvedor full stack com forte foco em backend,
             especializado na construção de APIs robustas e escaláveis. Minha
             experiência abrange desde a arquitetura de sistemas até a otimização
             de bancos de dados,sempre visando alta performance e segurança. No

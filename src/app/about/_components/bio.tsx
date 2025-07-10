@@ -6,7 +6,7 @@ export function Bio() {
       </h2>
 
       <p className="font-medium">
-        Olá, sou Gerson Viana, um desenvolvedor fullstack com forte foco em
+        Olá, sou Gerson Viana, um desenvolvedor full stack com forte foco em
         backend, especializado na construção de APIs robustas e escaláveis e
         manutenção de sistems frontend.
       </p>
@@ -40,7 +40,7 @@ export function Bio() {
       </div>
 
       <p className="mt-4 font-medium">
-        &ldquo;O fullstack é o arquiteto completo do mundo digital. Ele não se
+        &ldquo;O full stack é o arquiteto completo do mundo digital. Ele não se
         limita a uma única área, mas sim domina tanto a criação das interfaces
         que os usuários veem e interagem (o frontend), quanto a construção das
         robustas estruturas, lógicas e bancos de dados que fazem tudo funcionar
