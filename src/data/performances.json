@@ -1,12 +1,12 @@
 [
   {
     "name": "Exame",
-    "imageUrl": "/images/performances/exame.png"
+    "imageUrl": "/images/performances/exame.svg"
   },
 
   {
     "name": "CartaCapital",
-    "imageUrl": "/images/performances/cartacapital.png"
+    "imageUrl": "/images/performances/cartacapital.svg"
   },
 
   {
@@ -16,51 +16,51 @@
 
   {
     "name": "Max Titanium",
-    "imageUrl": "/images/performances/maxtitanium.png"
+    "imageUrl": "/images/performances/maxtitanium.svg"
   },
 
   {
     "name": "Placar",
-    "imageUrl": "/images/performances/placar.png"
+    "imageUrl": "/images/performances/placar.svg"
   },
 
   {
     "name": "Vinhos Nacionais",
-    "imageUrl": "/images/performances/vinhosnacionais.png"
+    "imageUrl": "/images/performances/vinhosnacionais.svg"
   },
 
   {
     "name": "BrainTV",
-    "imageUrl": "/images/performances/braintv.png"
+    "imageUrl": "/images/performances/braintv.svg"
   },
 
   {
     "name": "A Taba",
-    "imageUrl": "/images/performances/ataba.png"
+    "imageUrl": "/images/performances/ataba.svg"
   },
 
   {
     "name": "Vida Simples",
-    "imageUrl": "/images/performances/vidasimples.png"
+    "imageUrl": "/images/performances/vidasimples.svg"
   },
 
   {
     "name": "ELLE",
-    "imageUrl": "/images/performances/elle.png"
+    "imageUrl": "/images/performances/elle.svg"
   },
 
   {
     "name": "Xtratus",
-    "imageUrl": "/images/performances/xtratus.png"
+    "imageUrl": "/images/performances/xtratus.svg"
   },
 
   {
     "name": "Nutrify",
-    "imageUrl": "/images/performances/nutrify.png"
+    "imageUrl": "/images/performances/nutrify.svg"
   },
 
   {
     "name": "Correio do Povo",
-    "imageUrl": "/images/performances/correiodopovo.png"
+    "imageUrl": "/images/performances/correiodopovo.svg"
   }
 ]
