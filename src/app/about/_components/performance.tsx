@@ -37,7 +37,7 @@ export function Performance({ name, imageUrl, className }: PerformanceProps) {
       />
 
       <Image
-        className={cn('w-76 h-28 object-contain background-image:#fff', className)}
+        className={cn('w-76 h-28 object-contain', className)}
         src={imageUrl}
         alt={name}
         width={124}
