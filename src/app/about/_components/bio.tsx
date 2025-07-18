@@ -12,7 +12,7 @@ export function Bio() {
       </p>
 
       <p className="mt-4 font-medium">
-        Com mais de 5 anos de experiência na área, estou sempre buscando evoluir
+        Com mais de 6 anos de experiência na área, estou sempre buscando evoluir
         meus conhecimentos como desenvolvedor. Trabalho diariamente com PHP,
         React e frameworks como Next.js e Laravel, mas também tenho conhecimento
         em NodeJs e Python. Também possuo habilidades em administração e gestão
