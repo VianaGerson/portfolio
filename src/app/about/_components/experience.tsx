@@ -1,18 +1,18 @@
-"use client";
+'use client'
 
-import { useRef } from "react";
+import { useRef } from 'react'
 
-import { motion, useScroll } from "framer-motion";
+import { motion, useScroll } from 'framer-motion'
 
-import { ExperienceItem } from "./experience-item";
+import { ExperienceItem } from './experience-item'
 
 export function Experience() {
-  const ref = useRef(null);
+  const ref = useRef(null)
 
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["start end", "center start"],
-  });
+    offset: ['start end', 'center start'],
+  })
 
   return (
     <div className="my-24">
@@ -86,5 +86,5 @@ export function Experience() {
         </ul>
       </div>
     </div>
-  );
+  )
 }

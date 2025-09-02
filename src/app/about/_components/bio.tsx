@@ -30,5 +30,5 @@ export function Bio() {
         por trás dos pano.&rdquo;
       </p>
     </div>
-  );
+  )
 }
