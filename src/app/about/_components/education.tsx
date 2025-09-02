@@ -60,6 +60,13 @@ export function Education() {
             details="A Udemy é uma plataforma de educação à distância (EAD) que oferece mais de 100 mil
             cursos on-line gratuitos e pagos com certificação."
           />
+
+          <EducationItem
+            time="2025"
+            place="Full Cycle"
+            type="FC Tech Week IA for Devs - 2025"
+            details="A Full Cycle é uma plataforma de educação à distância (EAD) que oferece cursos on-line gratuitos e pagos com certificação."
+          />
         </ul>
       </div>
     </div>

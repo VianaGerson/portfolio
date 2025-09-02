@@ -1,18 +1,18 @@
-'use client'
+"use client";
 
-import { useRef } from 'react'
+import { useRef } from "react";
 
-import { motion, useScroll } from 'framer-motion'
+import { motion, useScroll } from "framer-motion";
 
-import { ExperienceItem } from './experience-item'
+import { ExperienceItem } from "./experience-item";
 
 export function Experience() {
-  const ref = useRef(null)
+  const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ['start end', 'center start'],
-  })
+    offset: ["start end", "center start"],
+  });
 
   return (
     <div className="my-24">
@@ -34,9 +34,15 @@ export function Experience() {
             companyLink="https://www.evocorp.com.br"
             time="jan 2019 - dez 2024"
             position="Desenvolvedor Backend"
-            work="Atuei em uma equipe responsável pelo desenvolvimento de soluções
-            tecnológicas para diversos setores do mercado. Incluindo soluções Chatbot,
-            Aplicações Mobile, Websites e Sistemas Web."
+            work="Projeto de Projeção de Fibra Óptica: desenvolvimento de sistema para
+              planejamento de infraestrutura, permitindo adicionar equipamentos com
+              Google Maps e calcular automaticamente os custos de projeto.
+              Tecnologias: PHP (Laravel), React.js, APIs de geolocalização.
+              Chatbot de Atendimento via WhatsApp: criação de solução para
+              atendimento automatizado, integrando múltiplas tecnologias.
+              Tecnologias: PHP (Laravel), Node.js, Go, React.js.
+              Atuação em modelagem de dados, APIs e interfaces responsivas,
+              garantindo eficiência e escalabilidade nas entregas."
           />
 
           <ExperienceItem
@@ -44,7 +50,16 @@ export function Experience() {
             companyLink="https://www.instagram.com/expertiseconsulting"
             time="dez 2020 - jul 2021"
             position="Desenvolvedor Full Stack"
-            work="Atuei no desenvolvimento da plataforma de gestão de reclamações e orderm de serviços voltadas para operadoras de internet."
+            work="Atuação no desenvolvimento de sistema de controle e ordens de serviço
+              (OS/OR).
+              Inicialmente, responsável por integrações com Google Planilhas para
+              extração de dados.
+              Participação na migração para SaaS dedicado, substituindo planilhas por
+              um software robusto.
+              Desenvolvimento utilizando Python/Django e, posteriormente, PHP
+              (Laravel) e Vue.js.
+              Implementação de APIs, modelagem de dados (PostgreSQL) e suporte em
+              testes e manutenção."
           />
 
           <ExperienceItem
@@ -52,11 +67,24 @@ export function Experience() {
             companyLink="https://ritspay.com"
             time="jul 2021 - atual"
             position="Desenvolvedor Full Stack"
-            work="Atuei na parte de terceirização de TI e no desenvolvimento da plataforma de assinaturas.
-            Tanto na plataforma Saas quanto na versão enterprise."
+            work="Desenvolvimento e manutenção de sistemas de assinaturas, com foco em
+              integrações complexas:
+              Gateways de pagamento: Vindi, Pagar Me, Iugu, Safe2Pay
+              ERPs: Bling
+              CRMs: Active Campaign
+              E-commerces: Shopify, VTEX, Nuvemshop, Tray, Braavo,
+              Magazord
+              Logística: Intelipost, Frenet, Melhor Envio, Mandaê​
+              Atuação com infraestrutura AWS: Redis, SQS, Lambda, RDS, S3,
+              ElastiCache, ECS.
+              Criação e manutenção de APIs em PHP (Laravel).
+              Criação e manutenção de front end utilizando ReactJs e Laravel Blade,
+              com Javascript, css e JQuery.
+              Participação em code reviews, definição de boas práticas (SOLID, Clean
+              Code, MVC) e documentação técnica."
           />
         </ul>
       </div>
     </div>
-  )
+  );
 }
