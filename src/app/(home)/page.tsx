@@ -1,14 +1,9 @@
-import Image from "next/image";
-
-import Link from "next/link";
-
-import { ArrowDownRightSquare } from "lucide-react";
-
-import { AnimatedText } from "@/components/animated-text";
-
-import { Container } from "@/components/container";
-
-import { HeroImage } from "./_components/hero-image";
+import Image from 'next/image'
+import Link from 'next/link'
+import { ArrowDownRightSquare } from 'lucide-react'
+import { AnimatedText } from '@/components/animated-text'
+import { Container } from '@/components/container'
+import { HeroImage } from './_components/hero-image'
 
 export default function HomePage() {
   return (
@@ -62,5 +57,5 @@ export default function HomePage() {
         />
       </div>
     </main>
-  );
+  )
 }

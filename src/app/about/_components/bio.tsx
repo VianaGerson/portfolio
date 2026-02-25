@@ -26,5 +26,5 @@ export function Bio() {
         a performance por trás dos panos.&rdquo;
       </p>
     </div>
-  );
+  )
 }

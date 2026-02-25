@@ -6,9 +6,9 @@ import { Bio } from './_components/bio'
 import { Education } from './_components/education'
 import { Experience } from './_components/experience'
 import { Highlight } from './_components/highlight'
+import { Performances } from './_components/performances'
 import { ProfilePic } from './_components/profile-pic'
 import { Skills } from './_components/skills'
-import { Performances } from './_components/performances'
 
 export default function AboutPage() {
   const currentYear = new Date().getFullYear() - 2019

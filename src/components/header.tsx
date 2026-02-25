@@ -4,11 +4,11 @@ import React from 'react'
 
 import { motion } from 'framer-motion'
 
+import { Logo } from './logo'
 import { MenuButton } from './menu-button'
 import { NavLink } from './nav-link'
 import { SocialLinks } from './social-links'
 import { ThemeToggle } from './theme-toggle'
-import { Logo } from './logo'
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false)
