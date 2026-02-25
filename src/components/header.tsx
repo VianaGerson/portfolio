@@ -8,6 +8,7 @@ import { MenuButton } from './menu-button'
 import { NavLink } from './nav-link'
 import { SocialLinks } from './social-links'
 import { ThemeToggle } from './theme-toggle'
+import { Logo } from './logo'
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false)
@@ -36,6 +37,10 @@ export function Header() {
           <SocialLinks />
         </div>
         <ThemeToggle />
+      </div>
+
+      <div className="absolute left-1/2 top-3 -translate-x-1/2">
+        <Logo />
       </div>
 
       {/* mobile menu */}
