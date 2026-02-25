@@ -1,14 +1,14 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-import Link from 'next/link'
+import Link from "next/link";
 
-import { ArrowDownRightSquare } from 'lucide-react'
+import { ArrowDownRightSquare } from "lucide-react";
 
-import { AnimatedText } from '@/components/animated-text'
+import { AnimatedText } from "@/components/animated-text";
 
-import { Container } from '@/components/container'
+import { Container } from "@/components/container";
 
-import { HeroImage } from './_components/hero-image'
+import { HeroImage } from "./_components/hero-image";
 
 export default function HomePage() {
   return (
@@ -25,12 +25,12 @@ export default function HomePage() {
             md:!text-5xl sm:!text-3xl"
           />
           <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-            Sou um desenvolvedor full stack com forte foco em backend,
-            especializado na construção de APIs robustas e escaláveis. Minha
-            experiência abrange desde a arquitetura de sistemas até a otimização
-            de bancos de dados,sempre visando alta performance e segurança. No
-            frontend, tenho proficiência para integrar e manter soluções de
-            forma eficiente, garantindo uma experiência completa e fluida.
+            Especialista na construção de APIs robustas e escaláveis, com foco
+            em arquitetura de sistemas e otimização de bancos de dados para alta
+            performance. No frontend, integro soluções de forma eficiente,
+            garantindo uma experiência completa e fluida. Unindo Laravel, NestJS
+            e AWS, entrego engenharia de software de alto nível para desafios
+            complexos de negócio..
           </p>
 
           <div className="mt-2 flex items-center self-start lg:self-center">
@@ -41,6 +41,12 @@ export default function HomePage() {
               hover:bg-transparent hover:text-foreground md:p-2 md:px-4 md:text-base"
             >
               Sobre <ArrowDownRightSquare className="h-5 w-5" />
+            </Link>
+            <Link
+              href="/projects"
+              className="ml-8 text-lg font-medium capitalize underline underline-offset-2 md:text-base"
+            >
+              Projetos
             </Link>
           </div>
         </div>
@@ -56,5 +62,5 @@ export default function HomePage() {
         />
       </div>
     </main>
-  )
+  );
 }

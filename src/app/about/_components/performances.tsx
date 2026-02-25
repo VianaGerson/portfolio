@@ -12,7 +12,7 @@ export function Performances() {
       </h2>
 
       <div className="mb-54 relative mt-24 flex w-full items-center justify-center md:mb-32">
-        <div className="grid grid-cols-5 gap-12 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2">
+        <div className="grid grid-cols-5 gap-12 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-1">
           {dataPerformances.map((performance) => (
             <Performance
               key={performance.name}

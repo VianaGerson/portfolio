@@ -15,5 +15,11 @@
     "name": "WhatsApp",
     "href": "https://wa.me/+5584996196819",
     "imageUrl": "/images/social/whatsapp.svg"
+  },
+
+  {
+    "name": "GitHub",
+    "href": "https://github.com/VianaGerson",
+    "imageUrl": "/images/social/github.svg"
   }
 ]

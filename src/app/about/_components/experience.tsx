@@ -32,7 +32,7 @@ export function Experience() {
           <ExperienceItem
             company="EVOCORP"
             companyLink="https://www.evocorp.com.br"
-            time="jan 2019 - dez 2024"
+            time="jan 2019 - dez 2020"
             position="Desenvolvedor Backend"
             work="Projeto de Projeção de Fibra Óptica: desenvolvimento de sistema para
               planejamento de infraestrutura, permitindo adicionar equipamentos com

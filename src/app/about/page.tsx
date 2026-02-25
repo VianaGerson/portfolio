@@ -6,11 +6,12 @@ import { Bio } from './_components/bio'
 import { Education } from './_components/education'
 import { Experience } from './_components/experience'
 import { Highlight } from './_components/highlight'
-import { Performances } from './_components/performances'
 import { ProfilePic } from './_components/profile-pic'
 import { Skills } from './_components/skills'
+import { Performances } from './_components/performances'
 
 export default function AboutPage() {
+  const currentYear = new Date().getFullYear() - 2019
   return (
     <>
       <TransitionEffect />
@@ -31,7 +32,7 @@ export default function AboutPage() {
               className="col-span-2 flex flex-col items-end gap-32 xl:col-span-8
               xl:flex-row xl:items-center md:order-3 md:justify-between sm:gap-0"
             >
-              <Highlight value={6} label="Anos de experiência" />
+              <Highlight value={currentYear} label="Anos de experiência" />
             </div>
           </div>
 

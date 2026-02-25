@@ -6,29 +6,25 @@ export function Bio() {
       </h2>
 
       <p className="font-medium">
-        Olá, sou Gerson Viana, um desenvolvedor full stack com forte foco em
-        backend, especializado na construção de APIs robustas e escaláveis e
-        manutenção de sistems frontend.
+        Olá, sou Gerson Viana, um desenvolvedor Full Stack com forte foco em
+        Backend, especializado na construção de APIs robustas e manutenção de
+        sistemas Frontend modernos.
       </p>
 
       <p className="mt-4 font-medium">
-        6 anos de experiência em PHP (Laravel), Node.js (NestJs), React.js e
-        TypeScript, atuando no desenvolvimento de soluções ERP, APIs e
-        integrações. Experiência em arquitetura de software, modelagem de banco
-        de dados, versionamento de código (Git), metodologias ágeis e boas
-        práticas de desenvolvimento (SOLID, Clean Code, MVC). Vivência com
-        infraestrutura em AWS (EC2, S3, RDS, SQS, Redis, ElastiCache, ECS) e
-        Docker. Perfil colaborativo, com foco em qualidade de código,
-        escalabilidade e entregas consistentes.
+        Com {new Date().getFullYear() - 2019} anos de experiência,, transformo
+        regras de negócio complexas em soluções escaláveis. Sou especialista em
+        sistemas de recorrência e ecossistemas de e-commerce, unindo a robustez
+        do Laravel/NestJS à agilidade da infraestrutura AWS para sustentar
+        plataformas de grandes marcas como Exame e Integralmedica.
       </p>
 
       <p className="mt-4 font-medium">
-        &ldquo;O full stack é o arquiteto completo do mundo digital. Ele não se
-        limita a uma única área, mas sim domina tanto a criação das interfaces
-        que os usuários veem e interagem (o frontend), quanto a construção das
-        robustas estruturas, lógicas e bancos de dados que fazem tudo funcionar
-        por trás dos pano.&rdquo;
+        &ldquo;O Full Stack é o arquiteto completo do mundo digital. Ele não se
+        limita a uma única área: domina desde a criação de interfaces intuitivas
+        até a construção das robustas estruturas de lógica e dados que garantem
+        a performance por trás dos panos.&rdquo;
       </p>
     </div>
-  )
+  );
 }

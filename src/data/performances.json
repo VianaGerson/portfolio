@@ -20,6 +20,11 @@
   },
 
   {
+    "name": "Darkness",
+    "imageUrl": "/images/performances/darkness.svg"
+  },
+
+  {
     "name": "Placar",
     "imageUrl": "/images/performances/placar.svg"
   },
@@ -62,5 +67,10 @@
   {
     "name": "Correio do Povo",
     "imageUrl": "/images/performances/correiodopovo.svg"
+  },
+
+  {
+    "name": "Papapá",
+    "imageUrl": "/images/performances/papapa.svg"
   }
 ]

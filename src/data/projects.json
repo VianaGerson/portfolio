@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Next.js Portfolio Website",
+    "type": "Portfolio Website",
+    "summary": "Um site de portfólio profissional usando React JS, Framer-motion e Styled-components. Possui transições de página suaves, efeitos de fundo interessantes, design exclusivo e é responsivo a dispositivos móveis.",
+    "coverImageUrl": "/images/projects/portfolio.png",
+    "codeUrl": "https://github.com/VianaGerson/portfolio",
+    "demoUrl": "https://gerson-viana.vercel.app",
+    "isFeatured": true
+  },
+
+  {
+    "title": "ClarkEnergy",
+    "type": "SPA",
+    "coverImageUrl": "/images/projects/clarkenergy.png",
+    "codeUrl": "https://github.com/VianaGerson/clarkenergy-web",
+    "demoUrl": "https://clarkenergy-web.vercel.app"
+  },
+
+  {
+    "title": "Cep Join",
+    "type": "API",
+    "coverImageUrl": "/images/projects/cepjoin.png",
+    "codeUrl": "https://github.com/VianaGerson/cep-join",
+    "demoUrl": "https://cep-join.vercel.app"
+  },
+
+  {
+    "title": "AgendeJá",
+    "type": "Website",
+    "summary": "EM DESENVOLVIMENTO: Solução SaaS completa que automatiza o fluxo de marcação de horários através de IA Generativa. O projeto utiliza uma API Laravel de alta performance e uma interface React moderna e responsiva.",
+    "coverImageUrl": "/images/projects/agendeja.png",
+    "codeUrl": "https://github.com/VianaGerson/agende-ja-web",
+    "isFeatured": true
+  }
+]

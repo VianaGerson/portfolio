@@ -40,7 +40,7 @@ export function Education() {
           <EducationItem
             time="2021"
             place="Udemy"
-            type="Certificação AWS Desenvolvedor - Associate - 2021"
+            type="Curso para certificação AWS Desenvolvedor - Associate - 2021"
             details="A Udemy é uma plataforma de educação à distância (EAD) que oferece mais de 100 mil
             cursos on-line gratuitos e pagos com certificação."
           />
@@ -66,6 +66,62 @@ export function Education() {
             place="Full Cycle"
             type="FC Tech Week IA for Devs - 2025"
             details="A Full Cycle é uma plataforma de educação à distância (EAD) que oferece cursos on-line gratuitos e pagos com certificação."
+          />
+
+          <EducationItem
+            time="2025"
+            place="Rocketseat"
+            type="Masterclass: IA"
+            details="A Rocketseat é um ecossistema de educação contínua referência em programação e Inteligência Artificial."
+          />
+
+          <EducationItem
+            time="2025"
+            place="Alura"
+            type="PHP e TDD: Testes com PHPUnit"
+            details="A Alura é uma plataforma brasileira de educação online focada em tecnologia, inovação e negócios digitais."
+          />
+
+          <EducationItem
+            time="2025"
+            place="Alura"
+            type="Design Patterns em PHP: Padrões Comportamentais"
+            details="A Alura é uma plataforma brasileira de educação online focada em tecnologia, inovação e negócios digitais."
+          />
+
+          <EducationItem
+            time="2025"
+            place="Alura"
+            type="XDebug: Ferramenta de Debug e Profiling"
+            details="A Alura é uma plataforma brasileira de educação online focada em tecnologia, inovação e negócios digitais."
+          />
+
+          <EducationItem
+            time="2025"
+            place="Alura"
+            type="Integração Contínua: Pipelines e testes automatizados com GitHub Actions e implementação continua na EC2"
+            details="A Alura é uma plataforma brasileira de educação online focada em tecnologia, inovação e negócios digitais."
+          />
+
+          <EducationItem
+            time="2025"
+            place="Alura"
+            type="Microsserviços na prática: Mensageria com RabbitMQ"
+            details="A Alura é uma plataforma brasileira de educação online focada em tecnologia, inovação e negócios digitais."
+          />
+
+          <EducationItem
+            time="2025"
+            place="Alura"
+            type="Go: Crie uma aplicação web"
+            details="A Alura é uma plataforma brasileira de educação online focada em tecnologia, inovação e negócios digitais."
+          />
+
+          <EducationItem
+            time="2025"
+            place="Alura"
+            type="LangChain: Criando chatbots inteligentes com RAG"
+            details="A Alura é uma plataforma brasileira de educação online focada em tecnologia, inovação e negócios digitais."
           />
         </ul>
       </div>

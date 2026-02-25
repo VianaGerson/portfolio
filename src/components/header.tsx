@@ -28,6 +28,7 @@ export function Header() {
       <nav className="flex items-center justify-between gap-8 lg:hidden">
         <NavLink href="/">Início</NavLink>
         <NavLink href="/about">Sobre</NavLink>
+        <NavLink href="/projects">Projetos</NavLink>
       </nav>
 
       <div className="flex items-center justify-center gap-8 lg:mt-2">
@@ -53,6 +54,9 @@ export function Header() {
             </NavLink>
             <NavLink href="/about" onClick={handleToggleMobileMenu}>
               Sobre
+            </NavLink>
+            <NavLink href="/projects" onClick={handleToggleMobileMenu}>
+              Projetos
             </NavLink>
           </nav>
 

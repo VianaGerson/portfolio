@@ -20,7 +20,7 @@ export function Performance({ name, imageUrl, className }: PerformanceProps) {
       aria-label={name}
       className="relative flex aspect-square w-full cursor-pointer flex-col
       items-center justify-center rounded-2xl rounded-br-2xl border border-solid
-      bg-background p-6 shadow-2xl xs:p-4"
+      bg-background p-8 shadow-2xl xs:p-4"
       initial={{ y: 50 }}
       whileInView={{ y: 0 }}
       viewport={{ once: true }}
@@ -40,8 +40,8 @@ export function Performance({ name, imageUrl, className }: PerformanceProps) {
         className={cn('w-76 h-28 object-contain', className)}
         src={imageUrl}
         alt={name}
-        width={124}
-        height={124}
+        width={168}
+        height={168}
       />
 
       <h3 className="mt-6 text-center text-xs font-semibold md:text-sm">
