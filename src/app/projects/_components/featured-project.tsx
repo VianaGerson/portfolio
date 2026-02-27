@@ -10,7 +10,7 @@ interface FeaturedProjectProps {
   type: string
   summary: string
   coverImageUrl: string
-  codeUrl: string
+  codeUrl?: string
   demoUrl?: string
 }
 
@@ -32,7 +32,7 @@ export function FeaturedProject(props: FeaturedProjectProps) {
       />
 
       <Link
-        href={demoUrl ?? codeUrl}
+        href={demoUrl ?? codeUrl ?? '#'}
         target="_blank"
         rel="noopener noreferrer"
         className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
@@ -58,7 +58,7 @@ export function FeaturedProject(props: FeaturedProjectProps) {
         </span>
 
         <Link
-          href={demoUrl ?? codeUrl}
+          href={demoUrl ?? codeUrl ?? '#'}
           target="_blank"
           rel="noopener noreferrer"
           className="underline-offset-2 hover:underline"
@@ -74,18 +74,20 @@ export function FeaturedProject(props: FeaturedProjectProps) {
         <p className="my-2 rounded-md font-medium sm:text-sm">{summary}</p>
 
         <div className="mt-2 flex items-center">
-          <Link href={codeUrl} target="_blank" rel="noopener noreferrer">
-            <Image
-              src="/images/social/github.svg"
-              alt="Github"
-              width={40}
-              height={40}
-              className="h-auto"
-            />
-          </Link>
+          {codeUrl && (
+            <Link href={codeUrl} target="_blank" rel="noopener noreferrer">
+              <Image
+                src="/images/social/github.svg"
+                alt="Github"
+                width={40}
+                height={40}
+                className="h-auto"
+              />
+            </Link>
+          )}
 
           <Link
-            href={demoUrl ?? codeUrl}
+            href={demoUrl ?? codeUrl ?? '#'}
             target="_blank"
             rel="noopener noreferrer"
             className="ml-4 rounded-lg bg-foreground p-2 px-6 text-lg font-semibold

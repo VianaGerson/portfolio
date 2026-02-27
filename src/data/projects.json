@@ -1,24 +1,32 @@
 [
   {
-    "title": "Next.js Portfolio Website",
-    "type": "Portfolio Website",
-    "summary": "Um site de portfólio profissional usando React JS, Framer-motion e Styled-components. Possui transições de página suaves, efeitos de fundo interessantes, design exclusivo e é responsivo a dispositivos móveis.",
-    "coverImageUrl": "/images/projects/portfolio.png",
-    "codeUrl": "https://github.com/VianaGerson/portfolio",
-    "demoUrl": "https://gerson-viana.vercel.app",
+    "title": "Rits – Plataforma de Gestão de Assinaturas e Recorrência",
+    "type": "Participação societária",
+    "summary": "Plataforma ideal para vendas recorrentes e clube de assinaturas. Como sócio e um dos engenheiros principais, implementei um ecossistema complexo de integrações, conectando o core business a gateways de pagamento (Vindi, Pagar.me), ERPs (Bling, Olist), plataformas de e-commerce (Shopify, VTEX, Tray) e operadores logísticos (Intelipost, Frenet).",
+    "coverImageUrl": "/images/projects/rits.png",
+    "demoUrl": "https://ritspay.com/",
     "isFeatured": true
   },
 
   {
-    "title": "ClarkEnergy",
-    "type": "SPA",
-    "coverImageUrl": "/images/projects/clarkenergy.png",
-    "codeUrl": "https://github.com/VianaGerson/clarkenergy-web",
-    "demoUrl": "https://clarkenergy-web.vercel.app"
+    "title": "Laravel + React - AgendeJá",
+    "type": "SaaS",
+    "summary": "EM DESENVOLVIMENTO: Solução SaaS completa que automatiza o fluxo de marcação de horários através de IA Generativa. O projeto utiliza uma API Laravel de alta performance e uma interface React moderna e responsiva.",
+    "coverImageUrl": "/images/projects/agendeja.png",
+    "codeUrl": "https://github.com/VianaGerson/agende-ja-web",
+    "isFeatured": true
   },
 
   {
-    "title": "Cep Join",
+    "title": "Next.js - Portfolio Website",
+    "type": "Portfolio Website",
+    "coverImageUrl": "/images/projects/portfolio.png",
+    "codeUrl": "https://github.com/VianaGerson/portfolio",
+    "demoUrl": "https://gerson-viana.vercel.app"
+  },
+
+  {
+    "title": "NestJs - Cep Join",
     "type": "API",
     "coverImageUrl": "/images/projects/cepjoin.png",
     "codeUrl": "https://github.com/VianaGerson/cep-join",
@@ -26,11 +34,10 @@
   },
 
   {
-    "title": "AgendeJá",
-    "type": "Website",
-    "summary": "EM DESENVOLVIMENTO: Solução SaaS completa que automatiza o fluxo de marcação de horários através de IA Generativa. O projeto utiliza uma API Laravel de alta performance e uma interface React moderna e responsiva.",
-    "coverImageUrl": "/images/projects/agendeja.png",
-    "codeUrl": "https://github.com/VianaGerson/agende-ja-web",
-    "isFeatured": true
+    "title": "NestJs + React/Vite - ClarkEnergy",
+    "type": "SPA",
+    "coverImageUrl": "/images/projects/clarkenergy.png",
+    "codeUrl": "https://github.com/VianaGerson/clarkenergy-web",
+    "demoUrl": "https://clarkenergy-web.vercel.app"
   }
 ]
